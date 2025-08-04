@@ -6,4 +6,7 @@ const getMessage = (): Promise<string> => {
   });
 };
 
-getMessage().then((result) => console.log(result));
+getMessage().then((result) => {
+  console.log("");
+  console.log(result);
+});
